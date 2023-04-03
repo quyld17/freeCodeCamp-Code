@@ -4,30 +4,30 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <header>
+    <header class="header">
         <title>Survey Form</title>
         <h1 id="title" class="title">freeCodeCamp Survey Form</h1>
         <p id="description" class="description"><em>Thank you for taking the time to help us improve the platform</em></p>
     </header>
     <form id="survey-form">
       <div>
-        <label id="name-label" for="name" >Name</label>
-        <input id="name" type="text" placeholder=" Enter your name" class="form-control" required>
+        <label id="name-label" for="name" class="form-control-title">Name</label>
+        <input id="name" type="text" placeholder="  Enter your name" class="form-control" required>
       </div>
       <div>
-        <label id="email-label" for="email">Email</label>
-        <input id="email" type="email" placeholder=" Enter your Email" class="form-control" required>
+        <label id="email-label" for="email" class="form-control-title">Email</label>
+        <input id="email" type="email" placeholder="  Enter your Email" class="form-control" required>
       </div>
       <div> 
-        <label id="number-label" for="age">Age
+        <label id="number-label" for="age" class="form-control-title">Age
             <span class="clue">(optional)</span>
         </label>
-        <input id="number" type="number" min="10" max="99" class="form-control" placeholder=" Age">
+        <input id="number" type="number" min="10" max="99" class="form-control" placeholder="  Age">
       </div>
       <div>
-        <label for="role">Which option best describes your current role?</label>
+        <label for="role" class="form-control-title">Which option best describes your current role?</label>
         <select id="dropdown" class="form-control">
-          <option disabled selecte option>Select current role</option>
+          <option disabled selected option>Select current role</option>
           <option>Student</option>
           <option>Full Time Job</option>
           <option>Full Time Learner</option>
@@ -48,9 +48,9 @@
         </label>
       </div>
       <div>
-        <label for="role">What is your favorite feature of freeCodeCamp?</label>
+        <label for="role" class="form-control-title">What is your favorite feature of freeCodeCamp?</label>
         <select id="dropdown" class="form-control">
-          <option disabled selecte option>Select an option</option>
+          <option disabled selected option>Select an option</option>
           <option>Challenges</option>
           <option>Projects</option>
           <option>Community</option>
@@ -58,50 +58,51 @@
         </select>
       </div>
       <div>
-        <label>What would you like to see improved?
+        <label class="form-control-title">What would you like to see improved?
             <span class="clue">(Check all that apply)</span>
         </label
         <label>
-          <input type="checkbox" value="options">Front-end Projects
+          <input type="checkbox" value="options" class="checkbox">Front-end Projects
         </label>
         <label>
-          <input type="checkbox" value="options">Back-end Projects
+          <input type="checkbox" value="options" class="checkbox">Back-end Projects
         </label>
         <label>
-          <input type="checkbox" value="options">Data Visualization
+          <input type="checkbox" value="options" class="checkbox">Data Visualization
         </label>
         <label>
-          <input type="checkbox" value="options">Challenges
+          <input type="checkbox" value="options" class="checkbox">Challenges
         </label>
         <label>
-          <input type="checkbox" value="options">Open Source Community
+          <input type="checkbox" value="options" class="checkbox">Open Source Community
         </label>
         <label>
-          <input type="checkbox" value="options">Gitter help rooms
+          <input type="checkbox" value="options" class="checkbox">Gitter help rooms
         </label>
         <label>
-          <input type="checkbox" value="options">Videos
+          <input type="checkbox" value="options" class="checkbox">Videos
         </label>
         <label>
-          <input type="checkbox" value="options">City Meetups
+          <input type="checkbox" value="options" class="checkbox">City Meetups
         </label>
         <label>
-          <input type="checkbox" value="options">Wiki
+          <input type="checkbox" value="options" class="checkbox">Wiki
         </label>
         <label>
-          <input type="checkbox" value="options">Forum
+          <input type="checkbox" value="options" class="checkbox">Forum
         </label>
         <label>
-          <input type="checkbox" value="options">Additional Courses
+          <input type="checkbox" value="options" class="checkbox">Additional Courses
         </label>
       </div>
       <div>
         <p>Any comments or suggestions?</p>
-        <textarea placeholder=" Enter your comment here..." rows="10" cols="40"></textarea>
+        <textarea placeholder="Enter your comment here..." ></textarea>
       </div>
       <div>
-        <button type="submit" id="submit">Submit</button>
+        <button type="submit" id="submit" >Submit</button>
       </div>
     </form>
   </body>
 </html>
+

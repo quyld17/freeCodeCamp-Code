@@ -1,17 +1,38 @@
 body {
-    background-image: url(https://scontent.fhan3-1.fna.fbcdn.net/v/t39.30808-1/335419040_1286732428855647_7809528733375309859_n.jpg?stp=c0.41.320.320a_dst-jpg_p320x320&_nc_cat=102&ccb=1-7&_nc_sid=7206a8&_nc_ohc=q6TKdv55KacAX8usOAm&_nc_ht=scontent.fhan3-1.fna&oh=00_AfDf3Gb0XjxQ72wgZoQdOTJZpcojsp1JsFImrLwu34rqyw&oe=642F72DB);
+    background-image: linear-gradient(
+        115deg,
+        rgba(58, 58, 158, 0.8),
+        rgba(136, 136, 206, 0.7)
+      ),
+        url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
     background-size: auto;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: sans-serif;
     background-position-x: center
 }
 
+h1 {
+    font-weight: 400;
+    line-height: 1.2;
+    margin-top: 50px;
+}
+
+p {
+    margin-bottom: 5px;
+}
+  
+.description {
+    margin-top: 0;
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+}
+
 :placeholder-shown {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: sans-serif;
 }
 
 label {
     display: block;
-    margin: 0.5rem 0;
+    /* margin: 0.5rem 0; */
 }
 
 header {
@@ -21,6 +42,10 @@ header {
 
 .title {
     font-size: 32px;
+}
+
+.form-control-title {
+    padding-bottom: 5px;
 }
 
 .description {
@@ -35,6 +60,7 @@ form {
     margin: 0 auto;
     padding: 40px;
     color: #f3f3f3;
+    border-radius: 5px;
 }
 
 div {
@@ -46,23 +72,38 @@ div {
     margin: 0 0 0 0;
     width: 100%;
     min-height: 2em;
+    max-width: 500px;
+    min-width: 300px;
     font-size: 18px;
+    border-radius: 5px;
 }
 
 button {
     background-color: #37af65;
     color: #f3f3f3;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: sans-serif;
 }
 
 .clue {
     font-size: 14px;
 }
 
-textarea {
-    margin: auto;
+select {
+    font-family: sans-serif;
 }
 
-select {
-    font-family: 'Courier New', Courier, monospace;
+.checkbox {
+    margin-right: 10px;
+    size-adjust: 100px;
+    transform: scale(1.5);
+    padding: 0;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+textarea {
+    min-height: 120px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
 }
