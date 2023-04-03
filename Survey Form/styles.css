@@ -1,0 +1,68 @@
+body {
+    background-image: url(https://scontent.fhan3-1.fna.fbcdn.net/v/t39.30808-1/335419040_1286732428855647_7809528733375309859_n.jpg?stp=c0.41.320.320a_dst-jpg_p320x320&_nc_cat=102&ccb=1-7&_nc_sid=7206a8&_nc_ohc=q6TKdv55KacAX8usOAm&_nc_ht=scontent.fhan3-1.fna&oh=00_AfDf3Gb0XjxQ72wgZoQdOTJZpcojsp1JsFImrLwu34rqyw&oe=642F72DB);
+    background-size: auto;
+    font-family: 'Courier New', Courier, monospace;
+    background-position-x: center
+}
+
+:placeholder-shown {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+header {
+    text-align: center;
+    color: #f3f3f3;
+}
+
+.title {
+    font-size: 32px;
+}
+
+.description {
+    font-size: 18px;
+}
+
+form {
+    background-color: #1b1b32cc;
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 40px;
+    color: #f3f3f3;
+}
+
+div {
+    margin-left: 0;
+    margin-bottom: 7%;
+}
+
+.form-control, button {
+    margin: 0 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    font-size: 18px;
+}
+
+button {
+    background-color: #37af65;
+    color: #f3f3f3;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.clue {
+    font-size: 14px;
+}
+
+textarea {
+    margin: auto;
+}
+
+select {
+    font-family: 'Courier New', Courier, monospace;
+}
