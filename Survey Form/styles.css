@@ -6,7 +6,7 @@ body {
       ),
         url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
     background-size: auto;
-    font-family: sans-serif;
+    font-family: Jetbrains Mono;
     background-position-x: center
 }
 
@@ -27,7 +27,7 @@ p {
 }
 
 :placeholder-shown {
-    font-family: sans-serif;
+    font-family: Jetbrains Mono;
 }
 
 label {
@@ -81,7 +81,7 @@ div {
 button {
     background-color: #37af65;
     color: #f3f3f3;
-    font-family: sans-serif;
+    font-family: Jetbrains Mono;
 }
 
 .clue {
@@ -89,7 +89,7 @@ button {
 }
 
 select {
-    font-family: sans-serif;
+    font-family: Jetbrains Mono;
 }
 
 .checkbox {
